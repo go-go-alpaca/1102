@@ -1,4 +1,5 @@
-sample = "380 339 420 308 448"
+f = open("three_digit_numbers.txt")
+sample = f.read()
 cols = sample.split()
 num_list = []
 for col in cols:
